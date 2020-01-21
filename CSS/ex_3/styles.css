@@ -1,0 +1,19 @@
+h1 { color: red }
+p {color: gray}
+a {color: blueviolet}
+
+div::first-line {
+    color: red;
+  }
+  
+  p::first-letter {
+    color: blue;
+  }
+  
+  span::before {
+    content: '1';
+  }
+  
+  span::after {
+    content: '2';
+  }
